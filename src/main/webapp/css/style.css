@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 5px;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+.tables {
+    border: 1px solid white;
+    width: 100%;
+}
+
+.tables th {
+    text-align: center;
+    color: white;
+    background-color: #04AA6D;
+    height: 50px;
+}
+
+.tables tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+.tables td {
+    text-align: center;
+}
